@@ -1,0 +1,9 @@
+[ 2015-07-20T15:40:19+08:00 ] 127.0.0.1 /fore/index.php/Admin/Post/ShowAll.html
+ERR: 非法操作:ShowAll
+
+[ 2015-07-20T15:41:11+08:00 ] 127.0.0.1 /fore/index.php/Admin/Post/ShowAll.html
+ERR: 非法操作:ShowAll
+
+[ 2015-07-20T15:45:52+08:00 ] 127.0.0.1 /fore/index.php/Home/Post/ShowAll.html
+ERR: 模板不存在:./Application/Home/View/Post/ShowAll.html
+

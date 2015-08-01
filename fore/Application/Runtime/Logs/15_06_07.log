@@ -1,0 +1,37 @@
+[ 2015-06-07T11:10:11+08:00 ] 127.0.0.1 /fore/index.php/home/index
+ERR: 无法加载控制器:index
+
+[ 2015-06-07T11:10:36+08:00 ] 127.0.0.1 /fore/index.php/home/Index
+ERR: 无法加载控制器:Index
+
+[ 2015-06-07T15:10:12+08:00 ] 127.0.0.1 /fore/index.php
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\fore\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.003001s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\fore\ThinkPHP\Library\Think\Model.class.php 第 1535 行.
+SQL: SELECT * FROM `news` WHERE ( vital='1' ) ORDER BY timepost,desc LIMIT Array,6   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc LIMIT Array,6' at line 1
+ [ SQL语句 ] : SELECT * FROM `news` WHERE ( vital='1' ) ORDER BY timepost,desc LIMIT Array,6  
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
